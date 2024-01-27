@@ -1,3 +1,41 @@
-* {
-    background-color: red;
-}
+:root {
+    --color-gray: #707d89;
+    --color-yellow: #ffd203;
+    --color-black: #141414;
+    --color-lgray: #d2dae1;
+    --color-vlgray: #f3f6fa;
+    --color-white: #ffffff;
+  }
+  
+  /* TITLE */
+  .section__title {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  /* NEW TITLE */
+  .new__title {
+    margin-bottom: 24px;
+  }
+
+  body {
+    font-family: "Montserrat", sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
+    color: var(--color-black);
+  }
+
+  .header {
+    max-width: calc(100% - 32px);
+    margin: 0 auto;
+  
+    border: none;
+  }
+  
+  /* logo */
+  .header__logo {
+    display: flex;
+    margin: 24px 0;
+    display: flex;
+    justify-content: center;
+  
+    border: none;
+  }
