@@ -33,3 +33,11 @@
         <div class="fastResult"></div>
     </div>
 </div>
+
+<div class="header__search">
+
+<form action="" class="search">
+    <input type="search" class="search__input" placeholder="Найти в Lego бункере">
+    <button type="submit" class="search__btn">Найти</button>
+</form>
+</div>

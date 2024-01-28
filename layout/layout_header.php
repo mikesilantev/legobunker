@@ -4,14 +4,8 @@
             <?php echo mgLogo(); ?>
         </a>
     </div>
-
-    <div class="header__search">
-        <?php
+    <?php
         // Поиск по каталогу
         component('search'); ?>
-        <form action="" class="search">
-            <input type="search" class="search__input" placeholder="Найти в Lego бункере">
-            <button type="submit" class="search__btn">Найти</button>
-        </form>
-    </div>
+
 </header>
